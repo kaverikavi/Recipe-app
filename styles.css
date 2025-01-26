@@ -1,0 +1,24 @@
+.app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .recipe-list, .favorites {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .recipe-card, .favorite-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .recipe-card img, .favorite-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
